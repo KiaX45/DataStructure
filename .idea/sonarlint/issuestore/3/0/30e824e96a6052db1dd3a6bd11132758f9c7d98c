@@ -1,0 +1,71 @@
+
+`
+java:S1192'"JDefine a constant instead of duplicating this literal "Segoe UI" 11 times.(»¹ª’
+C
+java:S1604)"(Make this anonymous inner class a lambda(Ùøó–ıÿÿÿÿ
+D
+java:S1604ä"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ
+8
+java:S1643Ø"Use a StringBuilder instead.(°ƒìüÿÿÿÿ
+2
+java:S1643Ú"Use a StringBuilder instead.(êÇ­$
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´…¡
+i	java:S116î"SRename this field "jb_reset" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÂ„¸
+p	java:S116ï"URename this field "lb_AinterB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ‘şıÿÿÿÿ
+k	java:S116ğ"URename this field "lb_AminusB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢™İô
+p	java:S116ñ"URename this field "lb_AunionB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó²Şûÿÿÿÿ
+k	java:S116ò"URename this field "lb_BminusA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÒ˜ò
+q	java:S116ó"VRename this field "lb_ResultAB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Ÿ‹Æùÿÿÿÿ
+l	java:S116ô"VRename this field "lb_ResultBA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È†ø
+p	java:S116õ"URename this field "lb_Vector2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÊ­Àùÿÿÿÿ
+o	java:S116ö"YRename this field "lb_resultInter" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä“„
+t	java:S116÷"YRename this field "lb_resultUnion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÔÚ®ùÿÿÿÿ
+p	java:S116ø"URename this field "lb_vector1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š–ş±ıÿÿÿÿ
+r
+java:S1450ì"VRemove the "jPanel1" field and declare it as a local variable in the relevant methods.(´œ½ÿÿÿÿÿ
+r
+java:S1450í"VRemove the "jPanel2" field and declare it as a local variable in the relevant methods.(õ òçüÿÿÿÿ
+n
+java:S1450î"WRemove the "jb_reset" field and declare it as a local variable in the relevant methods.(áÂ„¸
+u
+java:S1450ï"YRemove the "lb_AinterB" field and declare it as a local variable in the relevant methods.(ˆ‘şıÿÿÿÿ
+p
+java:S1450ğ"YRemove the "lb_AminusB" field and declare it as a local variable in the relevant methods.(¢™İô
+u
+java:S1450ñ"YRemove the "lb_AunionB" field and declare it as a local variable in the relevant methods.(ó²Şûÿÿÿÿ
+p
+java:S1450ò"YRemove the "lb_BminusA" field and declare it as a local variable in the relevant methods.(ÿÒ˜ò
+H
+java:S1948
+"+Make "operation" transient or serializable.(Èœß¿8§¥¹É0
+N
+java:S2440
+"1Remove this instantiation of "WithoutRepetition".(Èœß¿8“§¥¹É0
+i	java:S100·"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜöŞÿıÿÿÿÿ
+Q
+java:S1854º":Remove this useless assignment to local variable "vector".(Òœ‚¼
+F
+java:S1172·"*Remove this unused method parameter "evt".(ÜöŞÿıÿÿÿÿ
+X
+java:S2209¸"5Change this instance-reference to a static reference.(¿Ÿêˆÿÿÿÿÿ8²§¥¹É0
+S
+java:S2209¹"5Change this instance-reference to a static reference.(Ëñ÷‘8²§¥¹É0
+S
+java:S2209º"5Change this instance-reference to a static reference.(Òœ‚¼8²§¥¹É0
+B
+java:S1481º"+Remove this unused "vector" local variable.(Òœ‚¼
+X
+java:S2209½"5Change this instance-reference to a static reference.(Ø¸Ê²şÿÿÿÿ8³§¥¹É0
+S
+java:S2209¿"5Change this instance-reference to a static reference.(ÇÌ‡8´§¥¹É0
+X
+java:S2209Ä"5Change this instance-reference to a static reference.(Êí–†şÿÿÿÿ8´§¥¹É0
+R
+java:S2209É"5Change this instance-reference to a static reference.(ÃÛ¦d8µ§¥¹É0
+T	java:S106Û"9Replace this use of System.out or System.err by a logger.(ÖÎÛßşÿÿÿÿ
+F
+java:S1197â"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+Q
+java:S1128"4Remove this unused import 'java.util.logging.Level'.(…µÛ¶8¹§¥¹É0
+R
+java:S1128"5Remove this unused import 'java.util.logging.Logger'.(ƒ¥óš8¹§¥¹É0
