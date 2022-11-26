@@ -19,16 +19,17 @@ public class CodePart {
 
     public static void first() {
         //calcular el cociente de dos numero enteros
-        int dividend = (int) (Math.random() * 100 + 1);
-        System.out.println(dividend);
-        int divider = (int) (Math.random() * 100 + 1);
-        int result = 0;
-        boolean continuar = true;
+        //La O grande de este algoritmos es: 3n + 6 = (O^n)
+        int dividend = (int) (Math.random() * 100 + 1);   //1
+        System.out.println(dividend);                     //1
+        int divider = (int) (Math.random() * 100 + 1);    //1
+        int result = 0;                                   //1
+        boolean continuar = true;                         //1
         do {
-            if (dividend > divider) {
-                dividend -= divider;
-                result++;
-            } else continuar = false;
+            if (dividend > divider) {                    //n
+                dividend -= divider;                     //n
+                result++;                                //n
+            } else continuar = false;                    //1
 
         } while (continuar);
 
@@ -54,46 +55,47 @@ public class CodePart {
     }
 
     public static void fourth() {
-        int count = 0;
-        int repeticions = 0;
-        boolean repeticion = false;
-        String answer = "";
-        Scanner scanner = new Scanner(System.in);
+        //La O grande de este algoritmo es: 5n^3 + 3n^2 + 10n + 5 = O(n^3)
+        int count = 0;                                            //1
+        int repeticions = 0;                                      //1
+        boolean repeticion = false;                               //1
+        String answer = "";                                       //1
+        Scanner scanner = new Scanner(System.in);                 //1
         do {
-            repeticions = 0;
-            System.out.println("Please inset the characters");
-            String characters = scanner.nextLine();
-            System.out.println("Please inset the word");
-            String word = scanner.nextLine();
+            repeticions = 0;                                      //n
+            System.out.println("Please inset the characters");    //n
+            String characters = scanner.nextLine();               //n
+            System.out.println("Please inset the word");          //n
+            String word = scanner.nextLine();                     //n
             for (int i = 0; i < word.length(); i++) {
-                int z = i;
-                count = 0;
+                int z = i;                                        //n^2
+                count = 0;                                        //n^2
                 for (int j = 0; j < characters.length(); j++) {
-                    String letter = "";
+                    String letter = "";                           //n^3
                     try {
-                        letter = String.valueOf(word.charAt(z));
+                        letter = String.valueOf(word.charAt(z));  //n^3
                     } catch (Exception e) {
 
                     }
-                    String comparation = String.valueOf(characters.charAt(j));
+                    String comparation = String.valueOf(characters.charAt(j)); //n^3
                     if (letter.equalsIgnoreCase(comparation)) {
-                        count++;
-                        z++;
+                        count++;                                   //n^3
+                        z++;                                       //n^3
                     } else {
-                        j = word.length();
+                        j = word.length();                         //n^3
                     }
                 }
                 if (count == characters.length()) {
-                    repeticions++;
+                    repeticions++;                                 //n^2
                 }
             }
 
-            System.out.println("The number of times that " + characters + " it is in " + word + " is: " + repeticions);
-            System.out.println("Do you want to repeat?");
-            answer = scanner.nextLine();
+            System.out.println("The number of times that " + characters + " it is in " + word + " is: " + repeticions);  //n
+            System.out.println("Do you want to repeat?");                                                                //n
+            answer = scanner.nextLine();                                                                                 //n
             if (answer.equalsIgnoreCase("yes")) {
-                repeticion = true;
-            } else repeticion = false;
+                repeticion = true;                                                                                       //n
+            } else repeticion = false;                                                                                   //n
 
         } while (repeticion);
 
@@ -101,42 +103,43 @@ public class CodePart {
     }
 
     private static void fifth() {
-        Scanner scanner = new Scanner(System.in);
-        boolean repeticion = false;
-        String answer = "";
-        int number = 0;
+        //La O grande de este lgoritmo es: 9n^2 + 5n + 4 = O(n^2)
+        Scanner scanner = new Scanner(System.in);                               //1
+        boolean repeticion = false;                                             //1
+        String answer = "";                                                     //1
+        int number = 0;                                                         //1
         do {
             do {
-                System.out.println("Please inser the number ");
+                System.out.println("Please inser the number ");                 //n^2
                 try {
-                    number = scanner.nextInt();
-                    repeticion = false;
-                } catch (Exception e) {
-                    System.out.println("The value must be numeric");
-                    repeticion = true;
+                    number = scanner.nextInt();                                 //n^2
+                    repeticion = false;                                         //n^2
+                } catch (Exception e) {                                         //n^2
+                    System.out.println("The value must be numeric");            //n^2
+                    repeticion = true;                                          //n^2
                 }
-                scanner.nextLine();
+                scanner.nextLine();                                             //n^2
             } while (repeticion);
 
-            int count = 0;
+            int count = 0;                                                      //n
             for (int i = 1; i < number; i++) {
-                if (number % i == 0) {
-                    count++;
+                if (number % i == 0) {                                          //n^2
+                    count++;                                                    //n^2
                 }
             }
 
             if (count > 2) {
-                System.out.println("The number " + number + " it is not a prime number");
-            } else System.out.println("The number " + number + " it is a prime number");
+                System.out.println("The number " + number + " it is not a prime number"); //n
+            } else System.out.println("The number " + number + " it is a prime number");  //n
 
 
-            System.out.println("Do you want to repeat?");
+            System.out.println("Do you want to repeat?");                                 //n
 
-            answer = scanner.nextLine();
+            answer = scanner.nextLine();                                                  //n
 
 
             if (answer.equalsIgnoreCase("yes")) {
-                repeticion = true;
+                repeticion = true;                                                         //n
             } else repeticion = false;
 
         } while (repeticion);
